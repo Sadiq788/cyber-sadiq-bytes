@@ -144,51 +144,30 @@ const Contact = () => {
               </p>
             </motion.div>
 
-            <motion.div variants={itemVariants} className="space-y-4">
+            <motion.div variants={itemVariants} className="space-y-3">
               {contactInfo.map((info, index) => (
                 <motion.div
                   key={index}
                   variants={itemVariants}
                   className="group"
                 >
-                  {info.link ? (
-                    <a
-                      href={info.link}
-                      target={info.link.startsWith('http') ? '_blank' : undefined}
-                      rel={info.link.startsWith('http') ? 'noopener noreferrer' : undefined}
-                      className="block"
-                    >
-                      <Card className="card-glow transition-all duration-300 hover:scale-[1.02]">
-                        <CardContent className="p-4">
-                          <div className="flex items-center space-x-4">
-                            <div className={`p-3 rounded-lg bg-${info.color}/10 group-hover:bg-${info.color}/20 transition-colors`}>
-                              <info.icon className={`w-5 h-5 text-${info.color}`} />
-                            </div>
-                            <div>
-                              <div className="font-medium text-foreground">{info.label}</div>
-                              <div className={`text-sm text-${info.color} group-hover:underline`}>
-                                {info.value}
-                              </div>
-                            </div>
-                          </div>
-                        </CardContent>
-                      </Card>
-                    </a>
-                  ) : (
-                    <Card className="card-glow">
-                      <CardContent className="p-4">
-                        <div className="flex items-center space-x-4">
-                          <div className={`p-3 rounded-lg bg-${info.color}/10`}>
-                            <info.icon className={`w-5 h-5 text-${info.color}`} />
-                          </div>
-                          <div>
-                            <div className="font-medium text-foreground">{info.label}</div>
-                            <div className="text-sm text-muted-foreground">{info.value}</div>
-                          </div>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  )}
+                  <div className="bg-terminal-bg/50 border border-border/30 rounded-lg p-4 font-mono">
+                    <div className="flex flex-col space-y-1">
+                      <div className="text-sm text-muted-foreground font-medium">{info.label}</div>
+                      {info.link ? (
+                        <a
+                          href={info.link}
+                          target={info.link.startsWith('http') ? '_blank' : undefined}
+                          rel={info.link.startsWith('http') ? 'noopener noreferrer' : undefined}
+                          className={`${info.color} hover:underline transition-colors`}
+                        >
+                          {info.value}
+                        </a>
+                      ) : (
+                        <span className={info.color}>{info.value}</span>
+                      )}
+                    </div>
+                  </div>
                 </motion.div>
               ))}
             </motion.div>
