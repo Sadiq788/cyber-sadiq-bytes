@@ -1,73 +1,172 @@
-# Welcome to your Lovable project
+# Mohammed Sadiq - Cybersecurity Portfolio
 
-## Project info
+A modern, responsive portfolio website showcasing cybersecurity expertise, projects, and achievements.
 
-**URL**: https://lovable.dev/projects/284459d0-cbf6-4e72-9572-f5fcc7e2546e
+## 🚀 Features
 
-## How can I edit this code?
+- **Modern Design**: Dark cybersecurity theme with green/blue accents
+- **Responsive**: Optimized for all devices and screen sizes
+- **Interactive**: Smooth animations and hover effects
+- **SEO Optimized**: Proper meta tags and semantic HTML
+- **Fast Performance**: Built with Vite and optimized bundles
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Frontend**: React 18 + TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS + Custom Design System
+- **UI Components**: shadcn/ui + Radix UI
+- **Icons**: Lucide React
+- **Animations**: Framer Motion
+- **Forms**: EmailJS integration
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/284459d0-cbf6-4e72-9572-f5fcc7e2546e) and start prompting.
+## 📱 Sections
 
-Changes made via Lovable will be committed automatically to this repo.
+1. **Hero**: Introduction with call-to-action
+2. **About**: Profile, bio, and technical skills
+3. **Resume**: Education, certifications, and experience
+4. **Projects**: Featured cybersecurity and development projects
+5. **CTF**: Capture The Flag achievements and write-ups
+6. **Contact**: Working contact form and social links
 
-**Use your preferred IDE**
+## 🚀 Quick Start
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js 18+ 
+- npm or yarn
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
+```bash
+git clone https://github.com/mohammed-sadiq/portfolio.git
+cd portfolio
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open [http://localhost:8080](http://localhost:8080) in your browser
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📦 Build & Deploy
 
-**Use GitHub Codespaces**
+### Local Build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run build
+npm run preview
+```
 
-## What technologies are used for this project?
+### Deploy to GitHub Pages
 
-This project is built with:
+1. Update `vite.config.gh-pages.ts` with your repository name
+2. Push to GitHub
+3. Enable GitHub Pages in repository settings
+4. Use the provided GitHub Actions workflow
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Manual GitHub Pages Deployment
 
-## How can I deploy this project?
+```bash
+npm run predeploy
+npm run deploy
+```
 
-Simply open [Lovable](https://lovable.dev/projects/284459d0-cbf6-4e72-9572-f5fcc7e2546e) and click on Share -> Publish.
+## 🎨 Customization
 
-## Can I connect a custom domain to my Lovable project?
+### Colors & Theme
 
-Yes, you can!
+Edit the design system in:
+- `src/index.css` - CSS custom properties
+- `tailwind.config.ts` - Tailwind theme extension
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Content
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Update personal information in:
+- `src/components/Hero.tsx` - Name, title, introduction
+- `src/components/About.tsx` - Bio and skills
+- `src/components/Resume.tsx` - Education, certifications, experience
+- `src/components/Projects.tsx` - Project showcase
+- `src/components/CTF.tsx` - CTF achievements
+- `src/components/Contact.tsx` - Contact information
+
+### EmailJS Setup
+
+1. Create account at [EmailJS](https://www.emailjs.com/)
+2. Create email service and template
+3. Add configuration to `src/components/Contact.tsx`
+
+## 📁 Project Structure
+
+```
+src/
+├── components/          # React components
+│   ├── ui/             # shadcn/ui components
+│   ├── Navbar.tsx      # Navigation component
+│   ├── Hero.tsx        # Hero section
+│   ├── About.tsx       # About section
+│   ├── Resume.tsx      # Resume section
+│   ├── Projects.tsx    # Projects showcase
+│   ├── CTF.tsx         # CTF achievements
+│   ├── Contact.tsx     # Contact form
+│   └── Footer.tsx      # Footer component
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+├── pages/              # Page components
+└── index.css          # Global styles & design system
+```
+
+## 🔧 Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run predeploy` - Pre-deployment build
+- `npm run deploy` - Deploy to GitHub Pages
+
+## 🌟 Key Features
+
+### Design System
+- Cybersecurity-themed color palette
+- Custom CSS properties for consistency
+- Responsive breakpoints
+- Dark theme optimized
+
+### Performance
+- Code splitting with Rollup
+- Optimized images and assets
+- Minimal bundle size
+- Fast loading times
+
+### SEO & Accessibility
+- Semantic HTML structure
+- Proper heading hierarchy
+- Alt text for images
+- Meta tags optimization
+- ARIA labels where needed
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## 📞 Contact
+
+Mohammed Sadiq - Cybersecurity Analyst
+- Email: mohammed.sadiq@example.com
+- LinkedIn: [linkedin.com/in/mohammed-sadiq](https://linkedin.com/in/mohammed-sadiq)
+- GitHub: [github.com/mohammed-sadiq](https://github.com/mohammed-sadiq)
+
+---
+
+⭐ If you found this portfolio helpful, please consider giving it a star!
