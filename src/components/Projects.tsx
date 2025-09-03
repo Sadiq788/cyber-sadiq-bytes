@@ -29,7 +29,7 @@ const Projects = () => {
         'High accuracy classification',
         'Detailed threat reports'
       ],
-      github: '#',
+      github: 'https://github.com/Sadiq788/malware-detection-ml',
       demo: '#',
       status: 'Completed',
       color: 'cyber-green'
@@ -48,7 +48,7 @@ const Projects = () => {
         'Pre-trained language models',
         'Interactive web interface'
       ],
-      github: '#',
+      github: 'https://github.com/Sadiq788/emotion-detection-nlp',
       demo: '#',
       status: 'Completed',
       color: 'cyber-blue'
@@ -67,7 +67,7 @@ const Projects = () => {
         'Multi-platform compatibility',
         'Modular architecture'
       ],
-      github: '#',
+      github: 'https://github.com/Sadiq788/cybersecurity-toolkit',
       demo: '#',
       status: 'In Progress',
       color: 'cyber-purple'
@@ -86,7 +86,7 @@ const Projects = () => {
         'Security headers implementation',
         'Comprehensive audit logging'
       ],
-      github: '#',
+      github: 'https://github.com/Sadiq788/secure-web-app',
       demo: '#',
       status: 'Completed',
       color: 'cyber-green'
@@ -197,6 +197,7 @@ const Projects = () => {
                       variant="outline"
                       size="sm"
                       className="flex-1 border-cyber-green/50 text-cyber-green hover:bg-cyber-green/10"
+                      onClick={() => window.open(project.github, '_blank')}
                     >
                       <Github className="w-4 h-4 mr-2" />
                       Code
@@ -233,7 +234,7 @@ const Projects = () => {
                 I'm constantly working on new cybersecurity tools and applications. 
                 Check out my GitHub for the latest updates and experimental projects.
               </p>
-              <Button className="btn-hero">
+              <Button className="btn-hero" onClick={() => window.open('https://github.com/Sadiq788', '_blank')}>
                 <Github className="w-4 h-4 mr-2" />
                 View All Projects
               </Button>

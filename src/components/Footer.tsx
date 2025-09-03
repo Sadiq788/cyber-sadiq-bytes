@@ -7,19 +7,19 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: 'https://github.com/mohammed-sadiq',
+      href: 'https://github.com/Sadiq788/',
       label: 'GitHub',
       color: 'hover:text-cyber-green'
     },
     {
       icon: Linkedin,
-      href: 'https://linkedin.com/in/mohammed-sadiq',
+      href: 'https://www.linkedin.com/in/mohammed-sadiq-060a2926b',
       label: 'LinkedIn',
       color: 'hover:text-cyber-blue'
     },
     {
       icon: Mail,
-      href: 'mailto:mohammed.sadiq@example.com',
+      href: 'mailto:contact.mohammedsadiq@gmail.com',
       label: 'Email',
       color: 'hover:text-cyber-purple'
     }
@@ -122,11 +122,11 @@ const Footer = () => {
               </p>
               <div className="space-y-2">
                 <a
-                  href="mailto:mohammed.sadiq@example.com"
+                  href="mailto:contact.mohammedsadiq@gmail.com"
                   className="flex items-center space-x-2 text-sm text-muted-foreground hover:text-cyber-green transition-colors"
                 >
                   <Mail className="w-4 h-4" />
-                  <span>mohammed.sadiq@example.com</span>
+                  <span>contact.mohammedsadiq@gmail.com</span>
                 </a>
               </div>
             </div>
@@ -157,7 +157,7 @@ const Footer = () => {
             <p className="text-xs text-muted-foreground">
               This portfolio is open source and available on{' '}
               <a
-                href="https://github.com/mohammed-sadiq/portfolio"
+                href="https://github.com/Sadiq788/portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-cyber-blue hover:underline"

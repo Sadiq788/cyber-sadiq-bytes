@@ -30,22 +30,22 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'mohammed.sadiq@example.com',
-      link: 'mailto:mohammed.sadiq@example.com',
+      value: 'contact.mohammedsadiq@gmail.com',
+      link: 'mailto:contact.mohammedsadiq@gmail.com',
       color: 'cyber-green'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/mohammed-sadiq',
-      link: 'https://linkedin.com/in/mohammed-sadiq',
+      value: 'linkedin.com/in/mohammed-sadiq-060a2926b',
+      link: 'https://www.linkedin.com/in/mohammed-sadiq-060a2926b',
       color: 'cyber-blue'
     },
     {
       icon: Github,
       label: 'GitHub',
-      value: 'github.com/mohammed-sadiq',
-      link: 'https://github.com/mohammed-sadiq',
+      value: 'github.com/Sadiq788',
+      link: 'https://github.com/Sadiq788/',
       color: 'cyber-purple'
     },
     {

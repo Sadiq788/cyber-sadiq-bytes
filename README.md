@@ -40,7 +40,7 @@ A modern, responsive portfolio website showcasing cybersecurity expertise, proje
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/mohammed-sadiq/portfolio.git
+git clone https://github.com/Sadiq788/portfolio.git
 cd portfolio
 ```
 
@@ -163,9 +163,9 @@ Contributions, issues, and feature requests are welcome!
 ## 📞 Contact
 
 Mohammed Sadiq - Cybersecurity Analyst
-- Email: mohammed.sadiq@example.com
-- LinkedIn: [linkedin.com/in/mohammed-sadiq](https://linkedin.com/in/mohammed-sadiq)
-- GitHub: [github.com/mohammed-sadiq](https://github.com/mohammed-sadiq)
+- Email: contact.mohammedsadiq@gmail.com
+- LinkedIn: [linkedin.com/in/mohammed-sadiq-060a2926b](https://www.linkedin.com/in/mohammed-sadiq-060a2926b)
+- GitHub: [github.com/Sadiq788](https://github.com/Sadiq788/)
 
 ---
 
