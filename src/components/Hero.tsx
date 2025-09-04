@@ -32,7 +32,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
-          className="terminal-text text-sm mb-6"
+          className="terminal-text text-sm mb-8"
         >
           <span className="text-cyber-blue">visitor@portfolio:~$</span> cat introduction.txt
         </motion.div>
@@ -42,10 +42,10 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
-          className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6"
+          className="text-5xl sm:text-6xl lg:text-8xl font-bold mb-8 leading-tight"
         >
-          <span className="text-foreground">Mohammed</span>{' '}
-          <span className="text-cyber bg-gradient-to-r from-cyber-green to-cyber-blue bg-clip-text text-transparent">
+          <span className="text-foreground drop-shadow-lg">Mohammed</span>{' '}
+          <span className="text-cyber bg-gradient-to-r from-cyber-green to-cyber-blue bg-clip-text text-transparent drop-shadow-lg">
             Sadiq
           </span>
         </motion.h1>
