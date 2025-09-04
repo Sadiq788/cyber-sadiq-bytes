@@ -27,23 +27,11 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Terminal Prompt Effect */}
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3 }}
-          className="terminal-text text-lg sm:text-xl mb-8 p-4 bg-terminal-bg/50 border border-cyber-green/30 rounded-lg backdrop-blur-sm"
-        >
-          <span className="text-cyber-blue">visitor@portfolio:~$</span> <span className="text-cyber-green">whoami</span>
-          <br />
-          <span className="text-muted-foreground">Loading profile...</span>
-        </motion.div>
-
         {/* Name with Typing Effect */}
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.8 }}
+          transition={{ delay: 0.5 }}
           className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6"
         >
           <span className="text-foreground">Mohammed</span>{' '}
@@ -51,6 +39,16 @@ const Hero = () => {
             Sadiq
           </span>
         </motion.h1>
+
+        {/* Terminal Prompt Effect */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.8 }}
+          className="terminal-text text-sm mb-6"
+        >
+          <span className="text-cyber-blue">visitor@portfolio:~$</span> cat introduction.txt
+        </motion.div>
 
         {/* Title */}
         <motion.div
