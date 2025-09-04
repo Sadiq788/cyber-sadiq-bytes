@@ -75,7 +75,6 @@ const About = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-foreground">Mohammed Sadiq</h3>
-                    <p className="text-cyber-blue">Cybersecurity Analyst</p>
                     <div className="flex space-x-2 mt-2">
                       <Badge variant="outline" className="border-cyber-green text-cyber-green">
                         eJPT Certified
