@@ -29,12 +29,14 @@ const Hero = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Terminal Prompt Effect */}
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-          className="terminal-text text-sm mb-4"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+          className="terminal-text text-lg sm:text-xl mb-8 p-4 bg-terminal-bg/50 border border-cyber-green/30 rounded-lg backdrop-blur-sm"
         >
-          <span className="text-cyber-blue">visitor@portfolio:~$</span> cat introduction.txt
+          <span className="text-cyber-blue">visitor@portfolio:~$</span> <span className="text-cyber-green">whoami</span>
+          <br />
+          <span className="text-muted-foreground">Loading profile...</span>
         </motion.div>
 
         {/* Name with Typing Effect */}
