@@ -57,9 +57,9 @@ const Hero = () => {
           transition={{ delay: 1.0 }}
           className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-6 text-muted-foreground"
         >
-          <span className="text-cyber-green">Cyber Analyst</span>
+          <span className="text-cyber-green">Ethical Hacker</span>
           <span className="text-foreground"> | </span>
-          <span className="text-cyber-blue">Aspiring Red Teamer</span>
+          <span className="text-cyber-blue">CTF Player</span>
         </motion.div>
 
         {/* Introduction */}
@@ -107,11 +107,10 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.6 }}
-          className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12"
+          className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12"
         >
           {[
             { number: '50+', label: 'CTF Boxes Solved' },
-            { number: '2+', label: 'Years Experience' },
             { number: 'Top 3%', label: 'TryHackMe Ranking' },
           ].map((stat, index) => (
             <motion.div
