@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-cyber-blue/10 rounded-full blur-3xl animate-pulse-slow delay-1000" />
       </div>
 
-      <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 lg:pt-24">
         {/* Terminal Prompt Effect */}
         <motion.div
           initial={{ opacity: 0 }}
