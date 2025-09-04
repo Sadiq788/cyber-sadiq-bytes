@@ -26,13 +26,13 @@ const Resume = () => {
     {
       name: 'eJPT (eLearnSecurity Junior Penetration Tester)',
       issuer: 'INE/eLearnSecurity',
-      date: '2024',
+      date: '2025',
       status: 'Certified',
     },
     {
       name: 'Cisco Ethical Hacking Certificate',
       issuer: 'Cisco Networking Academy',
-      date: '2024',
+      date: '2025',
       status: 'Certified',
     },
   ];
