@@ -68,9 +68,21 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      // EmailJS integration would go here
-      // For now, we'll simulate a successful submission
-      await new Promise(resolve => setTimeout(resolve, 2000));
+      // Initialize EmailJS with your public key
+      emailjs.init('LWHX5tQLroKdjc4Ji');
+      
+      // Send email using EmailJS
+      await emailjs.send(
+        'service_vildl1h', // Your service ID
+        'template_nl6l8le', // Your template ID
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+          to_name: 'Mohammed Sadiq',
+        }
+      );
       
       toast({
         title: "Message Sent!",
@@ -80,6 +92,7 @@ const Contact = () => {
 
       setFormData({ name: '', email: '', subject: '', message: '' });
     } catch (error) {
+      console.error('EmailJS Error:', error);
       toast({
         title: "Error",
         description: "Failed to send message. Please try again.",
