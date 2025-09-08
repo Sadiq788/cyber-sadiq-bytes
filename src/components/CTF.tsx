@@ -100,7 +100,7 @@ const CTF = () => {
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
             CTF <span className="text-cyber">Achievements</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-cyber-green to-cyber-blue mx-auto mb-6" />
+          
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Capture The Flag competitions and cybersecurity challenges showcase
           </p>

@@ -101,7 +101,7 @@ const Resume = () => {
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
             My <span className="text-cyber">Resume</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyber-green to-cyber-blue mx-auto mb-6" />
+          
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             A comprehensive overview of my education, certifications, and professional experience
           </p>
