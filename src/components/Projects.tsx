@@ -35,25 +35,6 @@ const Projects = () => {
       color: 'cyber-green'
     },
     {
-      title: 'Emotion Detection from Text',
-      description: 'Natural Language Processing project that analyzes text sentiment and emotion classification. Features emoji-enhanced output for better visualization of detected emotions and sentiment analysis results.',
-      longDescription: 'A comprehensive NLP solution for emotion detection and sentiment analysis. The system processes text input and identifies emotional states using advanced machine learning models. Includes emoji integration for intuitive emotion representation.',
-      icon: Heart,
-      tech: ['Python', 'NLTK', 'TensorFlow', 'Keras', 'NLP', 'Emotion AI'],
-      features: [
-        'Multi-emotion classification',
-        'Sentiment polarity analysis',
-        'Emoji-enhanced output',
-        'Real-time text processing',
-        'Pre-trained language models',
-        'Interactive web interface'
-      ],
-      github: 'https://github.com/Sadiq788/emotion-detection-nlp',
-      demo: '#',
-      status: 'Completed',
-      color: 'cyber-blue'
-    },
-    {
       title: 'Cybersecurity Toolkit',
       description: 'Collection of custom cybersecurity tools and scripts for penetration testing, vulnerability assessment, and security automation. Includes network scanners, payload generators, and exploitation frameworks.',
       longDescription: 'A comprehensive toolkit designed for cybersecurity professionals. Features custom-built tools for various security testing scenarios including network reconnaissance, vulnerability scanning, and automated exploitation.',
