@@ -21,9 +21,6 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden border-b-0">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-terminal-bg via-background to-card opacity-90" />
-      <div className="absolute inset-0">
-        <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-cyber-blue/10 rounded-full blur-3xl animate-pulse-slow delay-1000" />
-      </div>
 
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 lg:pt-24">
         {/* Terminal Prompt Effect */}
