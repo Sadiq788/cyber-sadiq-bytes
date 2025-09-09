@@ -22,7 +22,6 @@ const Hero = () => {
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-terminal-bg via-background to-card opacity-90" />
       <div className="absolute inset-0">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-cyber-green/10 rounded-full blur-3xl animate-pulse-slow" />
         <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-cyber-blue/10 rounded-full blur-3xl animate-pulse-slow delay-1000" />
       </div>
 
