@@ -140,10 +140,6 @@ const Hero = () => {
         </motion.button>
       </div>
 
-      {/* Matrix Rain Effect (CSS) */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden opacity-20">
-        <div className="matrix-rain" />
-      </div>
     </section>
   );
 };
