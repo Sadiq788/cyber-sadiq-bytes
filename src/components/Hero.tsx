@@ -113,7 +113,7 @@ const Hero = () => {
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 1.8 + index * 0.1 }}
-              className="text-center p-4 rounded-lg bg-card/50 backdrop-blur-sm border border-border/30"
+              className="text-center p-4 rounded-lg bg-card/50 backdrop-blur-sm"
             >
               <div className="text-2xl sm:text-3xl font-bold text-cyber-green mb-2">
                 {stat.number}
