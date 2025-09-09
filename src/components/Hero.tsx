@@ -107,7 +107,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.6 }}
-          className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12"
+          className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-12 max-w-md sm:max-w-none mx-auto"
         >
           {[
             { number: '50+', label: 'CTF Boxes Solved' },
@@ -118,12 +118,12 @@ const Hero = () => {
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 1.8 + index * 0.1 }}
-              className="text-center"
+              className="text-center p-4 rounded-lg bg-card/50 backdrop-blur-sm border border-border/30"
             >
-              <div className="text-2xl sm:text-3xl font-bold text-cyber-green mb-1">
+              <div className="text-2xl sm:text-3xl font-bold text-cyber-green mb-2">
                 {stat.number}
               </div>
-              <div className="text-sm text-muted-foreground">{stat.label}</div>
+              <div className="text-sm sm:text-base text-muted-foreground">{stat.label}</div>
             </motion.div>
           ))}
         </motion.div>
