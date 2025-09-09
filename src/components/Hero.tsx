@@ -20,7 +20,6 @@ const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden border-b-0">
       {/* Background Effects */}
-      <div className="absolute inset-0 bg-gradient-to-br from-terminal-bg via-background to-card opacity-90" />
 
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 lg:pt-24">
         {/* Terminal Prompt Effect */}
