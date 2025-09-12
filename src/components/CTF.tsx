@@ -235,7 +235,10 @@ const CTF = () => {
               </div>
               
               <div className="text-center mt-8">
-                <Button className="btn-hero">
+                <Button 
+                  className="btn-hero"
+                  onClick={() => window.open('https://drive.google.com/file/d/1kEBs5sI5U1Utg3w3Xs1Jg6C3dBtdAZX8/view?usp=drive_link', '_blank')}
+                >
                   <FileText className="w-4 h-4 mr-2" />
                   Read Full CTF Write-up
                 </Button>
