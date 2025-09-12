@@ -76,12 +76,12 @@ const Contact = () => {
         'service_vildl1h', // Your service ID
         'template_nl6l8le', // Your template ID
         {
-          user_name: formData.name,
-          user_email: formData.email,
-          user_subject: formData.subject,
-          user_message: formData.message,
-          reply_to: formData.email,
-          to_email: 'contact.mohammedsadiq@gmail.com', // Your email address as recipient
+          from_name: formData.name,        // Client's name
+          from_email: formData.email,      // Client's email  
+          subject: formData.subject,       // Client's subject
+          message: formData.message,       // Client's message
+          reply_to: formData.email,        // Reply to client's email
+          to_email: 'contact.mohammedsadiq@gmail.com', // Your email address
         }
       );
       
