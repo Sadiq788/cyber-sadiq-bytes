@@ -81,6 +81,7 @@ const Contact = () => {
           user_subject: formData.subject,
           user_message: formData.message,
           reply_to: formData.email,
+          to_email: 'contact.mohammedsadiq@gmail.com', // Your email address as recipient
         }
       );
       
