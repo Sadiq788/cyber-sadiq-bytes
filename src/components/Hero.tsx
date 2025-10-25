@@ -91,7 +91,7 @@ const Hero = () => {
             variant="outline"
             size="lg"
             className="border-cyber-green/50 text-cyber-green hover:bg-cyber-green/10 hover:border-cyber-green transition-all duration-300"
-            onClick={() => window.open('https://drive.google.com/file/d/1Tsg2ZUQwpt3MhCvX8ffK2ARX0uOjh0Ni/view?usp=drive_link', '_blank')}
+            onClick={() => window.open('https://drive.google.com/file/d/17EL-HdNqcXeQg3t5Xui0QE3LUHXQwuqR/view?usp=sharing', '_blank')}
           >
             <Download className="mr-2 h-5 w-5" />
             Download Resume
