@@ -7,7 +7,7 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: 'https://github.com/Sadiq788/',
+      href: 'https://github.com/contactmohammedsadiq-dev',
       label: 'GitHub',
       color: 'hover:text-cyber-green'
     },
@@ -157,7 +157,7 @@ const Footer = () => {
             <p className="text-xs text-muted-foreground">
               This portfolio is open source and available on{' '}
               <a
-                href="https://github.com/Sadiq788/portfolio"
+                href="https://github.com/contactmohammedsadiq-dev/portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-cyber-blue hover:underline"

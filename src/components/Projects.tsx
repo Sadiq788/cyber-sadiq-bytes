@@ -29,7 +29,7 @@ const Projects = () => {
         'High accuracy classification',
         'Detailed threat reports'
       ],
-      github: 'https://github.com/Sadiq788/malware-detection-ml',
+      github: 'https://github.com/contactmohammedsadiq-dev/malware-detection-ml',
       demo: '#',
       status: 'Completed',
       color: 'cyber-green'
@@ -48,7 +48,7 @@ const Projects = () => {
         'Multi-platform compatibility',
         'Modular architecture'
       ],
-      github: 'https://github.com/Sadiq788/cybersecurity-toolkit',
+      github: 'https://github.com/contactmohammedsadiq-dev/cybersecurity-toolkit',
       demo: '#',
       status: 'In Progress',
       color: 'cyber-purple'
@@ -67,7 +67,7 @@ const Projects = () => {
         'Security headers implementation',
         'Comprehensive audit logging'
       ],
-      github: 'https://github.com/Sadiq788/secure-web-app',
+      github: 'https://github.com/contactmohammedsadiq-dev/secure-web-app',
       demo: '#',
       status: 'Completed',
       color: 'cyber-green'
@@ -215,7 +215,7 @@ const Projects = () => {
                 I'm constantly working on new cybersecurity tools and applications. 
                 Check out my GitHub for the latest updates and experimental projects.
               </p>
-              <Button className="btn-hero" onClick={() => window.open('https://github.com/Sadiq788', '_blank')}>
+              <Button className="btn-hero" onClick={() => window.open('https://github.com/contactmohammedsadiq-dev', '_blank')}>
                 <Github className="w-4 h-4 mr-2" />
                 View All Projects
               </Button>
